@@ -4,18 +4,18 @@ git reset --hard
 git branch -D $1
 
 if [ "$1" == "stock-clang" ];then
-    NameKernel="Stock Clang"
+    NameKernel="Stock CFW Clang"
     JsonLocation="$(pwd)/begonia-stock-clang.json"
     
 fi
 
 if [ "$1" == "stock-dtc" ];then
-    NameKernel="Stock DTC"
+    NameKernel="Stock CFW DTC"
     JsonLocation="$(pwd)/begonia-stock-dtc.json"
 fi
 
 if [ "$1" == "stock-gcc" ];then
-    NameKernel="Stock GCC"
+    NameKernel="Stock CFW GCC"
     JsonLocation="$(pwd)/begonia-stock-dtc.json"
 fi
 
