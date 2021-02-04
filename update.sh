@@ -27,7 +27,7 @@ else
     git checkout -b $1
     sed -i "s/"'name": .*'"/"'name": "'"${NameKernel}"'",'"/g" "$JsonLocation"
     if [[ "$1" == *"stock"*  ]];then
-        sed -i "s/"'link": "https:\/\/shared.zyc-files.workers.dev\/0:.*'"/"'link": "https:\/\/shared.zyc-files.workers.dev\/0:\/Begonia\/STABLE\/AOSP-STOCK\/'"${GetCBD}\/${ZipName}"'",'"/g" "$JsonLocation"
+        sed -i "s/"'link": "link-kernel.*'"/"'link": "https:\/\/osdn.dl.osdn.net\/storage\/g\/z\/zy\/zyc-kernels\/Begonia\/AOSP-CFW\/Stock\/'"${GetCBD}\/${ZipName}"'",'"/g" "$JsonLocation"
     fi
     sed -i "s/"'date": .*'"/"'date": "'"${GetCBD}"'",'"/g" "$JsonLocation"
     sed -i "s/"'version": .*'"/"'version": "'"${KVer}-${HeadCommitId}"'",'"/g" "$JsonLocation"

@@ -2,7 +2,7 @@
   "kernel": {
     "name": "",
     "version": "",
-    "link": "https://shared.zyc-files.workers.dev/0:/",
+    "link": "link-kernel",
     "changelog_url": "https://raw.githubusercontent.com/ZyCromerZ/begonia/changelogs/begonia.MD",
     "date": "",
     "sha1": ""
