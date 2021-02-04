@@ -19,6 +19,22 @@ if [ "$1" == "stock-gcc" ];then
     JsonLocation="$(pwd)/begonia-stock-dtc.json"
 fi
 
+if [ "$1" == "stock-memeui-clang" ];then
+    NameKernel="Stock RiP-CFW Clang"
+    JsonLocation="$(pwd)/begonia-memeui-stock-clang.json"
+    
+fi
+
+if [ "$1" == "stock-memeui-dtc" ];then
+    NameKernel="Stock RiP-CFW DTC"
+    JsonLocation="$(pwd)/begonia-memeui-stock-dtc.json"
+fi
+
+if [ "$1" == "stock-memeui-gcc" ];then
+    NameKernel="Stock RiP-CFW GCC"
+    JsonLocation="$(pwd)/begonia-memeui-stock-dtc.json"
+fi
+
 if [ -z "$NameKernel" ] && [ -z "$NameKernel" ];then
     echo 'oops . . .'
 else
