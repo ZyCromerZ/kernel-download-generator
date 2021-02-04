@@ -42,7 +42,9 @@ else
     SHA1CHECK=$(sha1sum "${KernelFiles}" | cut -d' ' -f1)
     git checkout -b $1
     sed -i "s/"'name": .*'"/"'name": "'"${NameKernel}"'",'"/g" "$JsonLocation"
-    if [[ "$1" == *"stock"*  ]];then
+    if [[ "$1" == *"stock-memeui"*  ]];then
+        sed -i "s/"'link": "link-kernel.*'"/"'link": "https:\/\/osdn.dl.osdn.net\/storage\/g\/z\/zy\/zyc-kernels\/Begonia\/Memeui\/Stock\/'"${GetCBD}\/${ZipName}"'",'"/g" "$JsonLocation"
+    elif [[ "$1" == *"stock"*  ]];then
         sed -i "s/"'link": "link-kernel.*'"/"'link": "https:\/\/osdn.dl.osdn.net\/storage\/g\/z\/zy\/zyc-kernels\/Begonia\/AOSP-CFW\/Stock\/'"${GetCBD}\/${ZipName}"'",'"/g" "$JsonLocation"
     fi
     sed -i "s/"'date": .*'"/"'date": "'"${GetCBD}"'",'"/g" "$JsonLocation"
