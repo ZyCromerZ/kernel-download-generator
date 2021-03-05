@@ -1,11 +1,11 @@
 {
   "kernel": {
-    "name": "",
-    "version": "",
-    "link": "link-kernel",
+    "name": "Stock RiP-CFW GCC",
+    "version": "4.14.223-36853b0b2",
+    "link": "https://osdn.dl.osdn.net/storage/g/z/zy/zyc-kernels/Begonia/Memeui/Stock/2021-03-05/[GCC][NON-CFW][Begonia]4.14.223--36853b0b2.zip",
     "changelog_url": "https://raw.githubusercontent.com/ZyCromerZ/begonia/changelogs/begonia.MD",
-    "date": "",
-    "sha1": ""
+    "date": "2021-03-05",
+    "sha1": "519c57a614bb7f83a28291073181babfb6ddff0a"
   },
   "support": {
     "link": "https://t.me/QknTercyduxGroup",
