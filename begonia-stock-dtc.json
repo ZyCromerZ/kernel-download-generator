@@ -1,11 +1,11 @@
 {
   "kernel": {
-    "name": "",
-    "version": "",
-    "link": "link-kernel",
+    "name": "Stock CFW DTC",
+    "version": "4.14.223-6644e902a",
+    "link": "https://osdn.dl.osdn.net/storage/g/z/zy/zyc-kernels/Begonia/AOSP-CFW/Stock/2021-03-05/[DTC][AOSP-CFW][STOCK][Begonia]4.14.223--6644e902a.zip",
     "changelog_url": "https://raw.githubusercontent.com/ZyCromerZ/begonia/changelogs/begonia.MD",
-    "date": "",
-    "sha1": ""
+    "date": "2021-03-05",
+    "sha1": "1a261e5ba0f83a9c78152dd704e57dcff436f2e8"
   },
   "support": {
     "link": "https://t.me/QknTercyduxGroup",
