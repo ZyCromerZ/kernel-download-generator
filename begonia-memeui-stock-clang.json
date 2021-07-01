@@ -1,11 +1,11 @@
 {
   "kernel": {
-    "name": "",
-    "version": "",
-    "link": "link-kernel",
+    "name": "Stock RiP-CFW Clang",
+    "version": "4.14.238-bbff23b6a",
+    "link": "https://osdn.dl.osdn.net/storage/g/z/zy/zyc-kernels/Begonia/Memeui/Stock/2021-07-02/[0702][CLANG][NON-CFW][Begonia]4.14.238-bbff23b6a.zip",
     "changelog_url": "https://raw.githubusercontent.com/ZyCromerZ/begonia/changelogs/begonia.MD",
-    "date": "",
-    "sha1": ""
+    "date": "2021-07-02",
+    "sha1": "29b3853d24a3ec566cdd942983dd1ea00b1b39c6"
   },
   "support": {
     "link": "https://t.me/QknTercyduxGroup",
