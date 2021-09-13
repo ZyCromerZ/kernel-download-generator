@@ -1,11 +1,11 @@
 {
   "kernel": {
-    "name": "",
-    "version": "",
-    "link": "link-kernel",
+    "name": "Stock RiP-CFW DTC",
+    "version": "4.14.246-3bb6c895f",
+    "link": "https://osdn.dl.osdn.net/storage/g/z/zy/zyc-kernels/Begonia/Memeui/Stock/2021-09-13/[0913][DTC][Q-OSS][Begonia]4.14.246-3bb6c895f.zip",
     "changelog_url": "https://raw.githubusercontent.com/ZyCromerZ/begonia/changelogs/begonia.MD",
-    "date": "",
-    "sha1": ""
+    "date": "2021-09-13",
+    "sha1": "8c6c0b4d744ec2b4f8f4d9a694c713b34eac2111"
   },
   "support": {
     "link": "https://t.me/QknTercyduxGroup",
